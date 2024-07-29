@@ -28,7 +28,7 @@ const TIKTOK_URL: string = 'https://www.tiktok.com';
 // const TIKTOK_API_URL: string = 'https://open-api.tiktok.com';
 // const PREVENT_CORS_URL: string = 'https://cors.bridged.cc';
 
-export const LoginSocialGithub = ({
+export const LoginSocialTiktok = ({
   state = '',
   scope = 'user.info.basic',
   client_key,
@@ -171,4 +171,4 @@ export const LoginSocialGithub = ({
   );
 };
 
-export default memo(LoginSocialGithub);
+export default memo(LoginSocialTiktok);
